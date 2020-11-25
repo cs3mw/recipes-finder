@@ -1,0 +1,153 @@
+        body {
+            font-family: 'Roboto', sans-serif;
+            color:#494948;
+            letter-spacing: 0.03em;
+            font-weight: 300;
+        }
+
+        body, input, textarea, button, select {
+            -webkit-font-smoothing: antialiased;
+        }
+  
+        .label {
+          margin:0 !important;
+          background-color:#4d8255;
+          color:#FFF;
+          font-weight:500;
+          line-height:1.5;
+          padding:.375rem .75rem;
+          display:inline-block;
+        }
+
+        #display_tags {
+          margin:0 auto 15px !important;
+          font-weight:500;
+          line-height:1.5;
+          text-align:center;
+        }
+
+        #search {
+          margin:0 auto 15px !important;
+        }
+
+        #search form {
+          width:100%;
+        }
+
+
+        #display_tags a {
+          margin:0 0 0 15px !important;
+          line-height:1.5;
+          padding:.375rem 0;
+          display:inline-block;
+        }
+
+        .serve-span {
+          line-height:37px;
+          padding-right:15px;
+        }
+
+        .btn-outline-primary {
+          background-color:#4d8255;
+          border:1px solid #4d8255;
+          color:#FFF;
+          font-weight:500;
+          border-radius: 0;
+        }
+
+        .btn-outline-secondary {
+          background-color:#FFF;
+          color:#4d8255;
+          font-weight:600;
+          border-radius: 0;
+          font-size:13px;
+          border-radius:0;
+          margin-left:10px;
+        }
+
+        h1,h2,h3,h4,h5 {
+          font-weight:700;
+        }
+
+        a {
+          color:#4d8255;
+          text-decoration:underline;
+        }
+
+        a:hover {
+          text-decoration:none;
+          color:#4d8255;
+        }
+
+        .active {visibility:visible !important;}
+        .card { max-height: 350px; overflow: hidden;text-align:left;}
+        .modal {overflow: scroll;}
+        .modal-dialog {max-width:800px;}
+        
+        input,
+        textarea {
+          border: 1px solid #494948 !important;
+          border-radius: 0 !important;
+          box-sizing: border-box;
+          margin: 0;
+          outline: none;
+          padding: 10px;
+        }
+
+        input[type="button"] {
+          -webkit-appearance: button;
+          cursor: pointer;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+        }
+
+        .input-group {
+          clear: both;
+          margin: 15px 0;
+          position: relative;
+        }
+
+        .input-group input[type='button'] {
+          background-color: #eeeeee;
+          min-width: 38px;
+          width: auto;
+          transition: all 300ms ease;
+        }
+
+        .input-group .button-minus,
+        .input-group .button-plus {
+          font-weight: bold;
+          height: 38px;
+          padding: 0;
+          width: 38px;
+          position: relative;
+        }
+
+        .input-group .quantity-field {
+          position: relative;
+          height: 38px;
+          left: -6px;
+          text-align: center;
+          width: 62px;
+          display: inline-block;
+          font-size: 13px;
+          margin: 0 0 5px;
+          resize: vertical;
+        }
+
+        .button-plus {
+          left: -13px;
+        }
+
+        input[type="number"] {
+          -moz-appearance: textfield;
+          -webkit-appearance: none;
+        }
+
+        .recipe_information {
+            overflow:auto;
+            margin-bottom:20px;
+        }
